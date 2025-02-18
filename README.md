@@ -4,7 +4,7 @@
 - [Project Overview](#project-overview)
 - [Dependencies](#dependencies)
 - [Data Collection](#data-collection)
-- [Data Preparation](#data-preparation)
+- [Data Preparation  or Data Preprocessing](#data-preparation-or-data-preprocessing)
 - [Data Visualization](#data-visualization)
 - [Clustering Techniques](#clustering-techniques)
 - [Results and Insights](#results-and-insights)
@@ -21,3 +21,35 @@ The project requires the following Python libraries:
 - matplotlib
 - scikit-learn
 - keras
+
+## Data Collection
+The dataset used in this project is the 'Mall_Customers.csv' file, which contains information about customers such as:
+- RowNumber
+- CustomerId
+- Surname
+- CreditScore
+- Geography
+- Gender
+- Age
+- Tenure
+- Balance
+- NumOfProducts
+- HasCrCard
+- IsActiveMember
+- EstimatedSalary
+- Exited
+
+## Data Preparation or Data Preprocessing
+The data preparation steps included:
+- Loading the data into a Pandas DataFrame.
+- Performing exploratory data analysis (EDA) to understand the data distribution.
+- Checking for and handling any missing values.
+- Dropped unnecessary columns (RowNumber, CustomerId, Surname).
+- Creating dummy variables (Gender, Geography).
+- Concatenation of dummy variables (Gender, Geography).
+- Dropping of unnecessary columns (Gender, Geography).
+
+## Data Visualization
+- Visualizing the training progress of the Artificial Neural Network (ANN).
+- Visualize the loss of the Artificial Neural Network (ANN) during training.
+
