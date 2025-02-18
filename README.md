@@ -63,7 +63,7 @@ The **Artificial Neural Network (ANN)** used for classification consists of:
 | Hidden Layer 2| 6       | ReLU                | He Uniform    |
 | Output Layer  | 1       | Sigmoid             | -             |
 
-##3 Hyperparameters:
+### Hyperparameters:
 - **Activation Function**: RELU (best one for hidden layers) & Sigmoid (for the output layer)
 - **Optimizer**: Adamax or Adam (It is one the popular optimizer)
 - **Loss Function**: Binary Cross-Entropy (It is mainly used when we have only 2 categories or for binary classification)
