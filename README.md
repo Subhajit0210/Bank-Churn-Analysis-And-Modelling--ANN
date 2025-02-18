@@ -53,3 +53,23 @@ The data preparation steps included:
 - Visualizing the training progress of the Artificial Neural Network (ANN).
 - Visualize the loss of the Artificial Neural Network (ANN) during training.
 
+
+
+
+## Usage
+To run the project, follow these steps:
+1. Clone the repository:
+```bash
+https://github.com/Subhajit0210/Bank-Churn-Analysis-And-Modelling--ANN.git
+```
+2. Navigate to the project directory:
+```bash
+cd customer-segmentation
+```
+4. Run the Jupyter notebook:
+```bash
+jupyter notebook Bank Churn Analysis & Modelling-ANN.ipynb
+```
+
+## Contributing
+Contributions are welcome! Please create a new branch for any changes and submit a pull request for review.
