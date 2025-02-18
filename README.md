@@ -6,7 +6,7 @@
 - [Data Collection](#data-collection)
 - [Data Preparation  or Data Preprocessing](#data-preparation-or-data-preprocessing)
 - [Data Visualization](#data-visualization)
-- [Clustering Techniques](#clustering-techniques)
+- [Model Architecture](#model-architecture)
 - [Results and Insights](#results-and-insights)
 - [Usage](#usage)
 - [Contributing](#contributing)
@@ -53,29 +53,27 @@ The data preparation steps included:
 - Visualizing the training progress of the Artificial Neural Network (ANN).
 - Visualize the loss of the Artificial Neural Network (ANN) during training.
 
-# Bank Churn Prediction - ANN Model
-
 ## Model Architecture
-
 The **Artificial Neural Network (ANN)** used for classification consists of:
 
-| Layer          | Neurons | Activation Function | Initialization |
+| **Layer**          | **Neurons** | **Activation Function** | **Initialization** |
 |---------------|---------|---------------------|---------------|
 | Input Layer   | 6       | ReLU                | He Uniform    |
 | Hidden Layer 1| 6       | ReLU                | He Uniform    |
 | Hidden Layer 2| 6       | ReLU                | He Uniform    |
 | Output Layer  | 1       | Sigmoid             | -             |
 
-### Hyperparameters:
-- **Optimizer**: Adamax
-- **Loss Function**: Binary Cross-Entropy
+##3 Hyperparameters:
+- **Activation Function**: RELU (best one for hidden layers) & Sigmoid (for the output layer)
+- **Optimizer**: Adamax or Adam (It is one the popular optimizer)
+- **Loss Function**: Binary Cross-Entropy (It is mainly used when we have only 2 categories or for binary classification)
+- Weight Initialization Technique: He_Uniform
 - **Epochs**: 100
 - **Batch Size**: 10
 - **Validation Split**: 33%
 
-## Description
-
-This ANN model is designed for bank churn prediction. The model consists of an input layer, two hidden layers using ReLU activation, and an output layer with a Sigmoid activation function for binary classification. The **He Uniform** initializer is used for weight initialization in the hidden layers.
+### Description of it:
+This ANN model is designed for Bank Churn Prediction. The model consists of an input layer, two hidden layers using ReLU activation, and an output layer with a Sigmoid activation function for binary classification. The **He Uniform** initializer is used for weight initialization in the hidden layers.
 
 ## How to Run
 
