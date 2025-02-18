@@ -15,7 +15,7 @@
 Customer churn is a critical challenge in the banking sector. In this project, I developed an Artificial Neural Network (ANN) model to predict customer churn based on various demographic and account-related factors. The goal is to identify potential churners and take proactive measures to retain valuable customers.
 
 ## Dependencies
-The project requires the following Python libraries:
+Make sure you have the following Python libraries installed before running the project:
 - numpy
 - pandas
 - matplotlib
@@ -62,13 +62,9 @@ To run the project, follow these steps:
 ```bash
 https://github.com/Subhajit0210/Bank-Churn-Analysis-And-Modelling--ANN.git
 ```
-2. Navigate to the project directory:
+2. Run the Jupyter notebook:
 ```bash
-cd customer-segmentation
-```
-4. Run the Jupyter notebook:
-```bash
-jupyter notebook Bank Churn Analysis & Modelling-ANN.ipynb
+jupyter notebook Bank_Churn_Analysis_&_Modelling_ANN.ipynb
 ```
 
 ## Contributing
