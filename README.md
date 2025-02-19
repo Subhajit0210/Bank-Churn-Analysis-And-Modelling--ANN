@@ -16,11 +16,11 @@ Customer churn is a critical challenge in the banking sector. In this project, I
 
 ## Dependencies
 Make sure you have the following Python libraries installed before running the project:
-- numpy
-- pandas
-- matplotlib
-- scikit-learn
-- keras
+- numpy - Data Manipulation
+- pandas - Numerical Computations
+- matplotlib - Data Visualization
+- scikit-learn - Preprocessing, Model valuation
+- keras - Building the ANN model
 
 ## Data Collection
 The dataset used in this project is the 'Mall_Customers.csv' file, which contains information about customers such as:
