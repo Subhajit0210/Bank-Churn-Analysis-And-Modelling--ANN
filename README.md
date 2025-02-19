@@ -16,11 +16,11 @@ Customer churn is a critical challenge in the banking sector. In this project, I
 
 ## Dependencies
 Make sure you have the following Python libraries installed before running the project:
-- numpy - Data Manipulation
-- pandas - Numerical Computations
-- matplotlib - Data Visualization
-- scikit-learn - Preprocessing, Model valuation
-- keras - Building the ANN model
+- numpy: Data Manipulation
+- pandas: Numerical Computations
+- matplotlib: Data Visualization
+- scikit-learn: Preprocessing, Model valuation
+- keras: Building the ANN model
 
 ## Data Collection
 The dataset used in this project is the 'Mall_Customers.csv' file, which contains information about customers such as:
@@ -74,6 +74,28 @@ The **Artificial Neural Network (ANN)** used for classification consists of:
 
 ### Description of it:
 This ANN model is designed for Bank Churn Prediction. The model consists of an input layer, two hidden layers using ReLU activation, and an output layer with a Sigmoid activation function for binary classification. The **He Uniform** initializer is used for weight initialization in the hidden layers.
+
+## Training Performance:
+The model was trained for 100 epochs with a batch size of 10 and a validation split of 33%.
+1. Final Accuracy:
+- Training: 85.71%
+-  Validation: 84.66%
+2. Final Loss:
+- Training Loss: 0.3416
+- Validation Loss: 0.3687
+
+## Key Observations:
+- The model achieves a strong accuracy of ~85%
+- No major overfitting observed (validation loss slightly higher than training loss)
+- Optimizer: Adamax or Adam | Loss Function: Binary Cross-Entropy (ideal for Binary Classification)
+
+## Model Evaluation & Performance Metrics:
+1. Model Accuracy
+- Training accuracy steadily improves, reaching 86%
+- Validation accuracy follows a similar trend but remains slightly lower
+2. Model Loss
+- Training loss decreases consistently, indicating proper learning
+- Validation loss follows a similar trend but remains slightly higher
 
 ## How to Run
 
