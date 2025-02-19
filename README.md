@@ -7,7 +7,10 @@
 - [Data Preparation  or Data Preprocessing](#data-preparation-or-data-preprocessing)
 - [Data Visualization](#data-visualization)
 - [Model Architecture](#model-architecture)
-- [Results and Insights](#results-and-insights)
+- [Training Performance](#training-performance)
+- [Key Observations](#key-observations)
+- [Model Evaluation & Performance Metrics](model-evaluation-&-performance-metrics)
+- [Future Improvements](future-improvements)
 - [Usage](#usage)
 - [Contributing](#contributing)
 
@@ -97,21 +100,22 @@ The model was trained for 100 epochs with a batch size of 10 and a validation sp
 - Training loss decreases consistently, indicating proper learning
 - Validation loss follows a similar trend but remains slightly higher
 
-## How to Run
-
-1. Install dependencies:
-   ```bash
-   pip install tensorflow numpy pandas matplotlib
-
-
+## Future Improvements:
+- Hyperparameter tuning (try different batch sizes, optimizers, activation functions).
+- Feature Engineering (add customer behavior trends, transaction history).
+- Use deeper networks or ensemble methods for improved performance.
 
 ## Usage
 To run the project, follow these steps:
-1. Clone the repository:
+1. Install dependencies:
+```bash
+pip install tensorflow numpy pandas matplotlib scikit-learn
+```
+2. Clone the repository:
 ```bash
 https://github.com/Subhajit0210/Bank-Churn-Analysis-And-Modelling--ANN.git
 ```
-2. Run the Jupyter notebook:
+3. Run the Jupyter notebook:
 ```bash
 jupyter notebook Bank_Churn_Analysis_&_Modelling_ANN.ipynb
 ```
