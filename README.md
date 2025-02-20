@@ -10,6 +10,7 @@
 - [Training Performance](#training-performance)
 - [Key Observations](#key-observations)
 - [Model Evaluation & Performance Metrics](model-evaluation-&-performance-metrics)
+- [Confusion Matrix & Performance Metrics](confusion-matrix-&-performance-metrics)
 - [Future Improvements](future-improvements)
 - [Usage](#usage)
 - [Contributing](#contributing)
@@ -99,6 +100,16 @@ The model was trained for 100 epochs with a batch size of 10 and a validation sp
 2. Model Loss
 - Training loss decreases consistently, indicating proper learning
 - Validation loss follows a similar trend but remains slightly higher
+
+## Confusion Matrix & Performance Metrics
+[[1516         79]  
+ [ 209       196]]
+### Breakdown:
+- True Positives (TP): 196
+- True Negatives (TN): 1516
+- False Positives (FP): 79
+- False Negatives (FN): 209
+Overall Accuracy: 85.6%
 
 ## Future Improvements:
 - Hyperparameter tuning (try different batch sizes, optimizers, activation functions).
