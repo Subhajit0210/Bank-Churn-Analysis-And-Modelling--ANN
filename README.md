@@ -102,8 +102,10 @@ The model was trained for 100 epochs with a batch size of 10 and a validation sp
 - Validation loss follows a similar trend but remains slightly higher
 
 ## Confusion Matrix & Performance Metrics
-[[1516         79]  
- [ 209       196]]
+```
+[[1516   79]
+ [ 209  196]]
+```
 ### Breakdown:
 - True Positives (TP): 196
 - True Negatives (TN): 1516
